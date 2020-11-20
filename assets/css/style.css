@@ -1,0 +1,475 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Raleway:ital,wght@1,200&family=Roboto+Mono:wght@100&display=swap');
+/* Colors */
+
+
+
+/* Padding/ Margins / Text */
+
+
+
+/* Heading */
+
+body {
+    overflow-x: hidden;
+}
+
+.header h1 {
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 140px;
+    text-align: center;
+    padding: 0;
+    margin-top: 170px;
+    color: black;
+}
+
+.bg-home {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    left:0px;
+    top:0px;
+    z-index:-1;
+    filter: grayscale(60%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    background-size: cover;
+}
+
+
+
+
+.header p {
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.header {
+    background-color: rgba(255, 255, 255, 0.35);
+
+}
+
+/* Menu Iteams */
+
+
+
+/* Hover */
+
+
+
+/* Footer */
+
+.page-footer {
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+    z-index: 0;
+}
+
+.footer-copyright {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.page-footer i {
+    padding-left: 50px;
+    padding-right: 50px;
+    color: black;
+}
+
+.container-social-media {
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 40px;
+    margin-top: 0;
+    position: sticky;
+    top: 0;
+}
+
+
+/* Navbar */
+
+#navcolor {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    padding-top: 0;
+    position: sticky;
+    top: 0;
+    z-index: auto;
+}
+
+.container {
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 40px;
+    margin-top: 0;
+    position: sticky;
+    top: 0;
+    z-index: -1;
+}
+
+.container a {
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 500;
+}
+
+.nav-link {
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.2); 
+
+}
+
+/* About */
+
+#profil-pic {
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    margin-top: 100px;
+}
+
+.contact-top {
+    text-align: center;
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 90px;
+    margin-top: 200px;
+}
+
+
+/* Project */
+
+.pro-head {
+    text-align: center;
+    margin-top: 400px;
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 100px;
+}
+
+.card {
+    margin-top: 80px;
+    z-index: -1;
+}
+
+.card h5 {
+    text-align: center;
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 44px;
+}
+
+.card p {
+    text-align: center;
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 24px;
+}
+
+.card-img-top {
+    width: 612px;
+    height: 400px;
+
+}
+
+.skills-margin {
+    margin-top: 120px;
+}
+
+.skills-head {
+    text-align: center;
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 90px;
+    margin-top: 350px;
+}
+
+.progress {
+    width: 80%;
+    margin-left: 170px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.h5-bar {
+    text-align: center;
+    
+}
+
+.text-skills h3 {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 80px;
+    font-family: "Cormorant Garamond", sans-serif;
+} 
+
+.text-skills {
+    margin-left: 300px;
+    margin-right: 300px;
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 30px;
+}
+
+.timeline-header h1 {
+    text-align: center;
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 80px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+
+
+
+
+.main-timeline {
+    position: relative
+}
+
+.main-timeline:before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 100%;
+    background: #c6c6c6;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0
+}
+
+.main-timeline .timeline {
+    margin-bottom: 40px;
+    position: relative
+}
+
+.main-timeline .timeline:after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+.main-timeline .icon {
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0
+}
+
+.main-timeline .icon:before,
+.main-timeline .icon:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.33s ease-out 0s
+}
+
+.main-timeline .icon:before {
+    background: #fff;
+    border: 2px solid #232323;
+    left: -3px
+}
+
+.main-timeline .icon:after {
+    border: 2px solid #c6c6c6;
+    left: 3px
+}
+
+.main-timeline .timeline:hover .icon:before {
+    left: 3px
+}
+
+.main-timeline .timeline:hover .icon:after {
+    left: -3px
+}
+
+.main-timeline .date-content {
+    width: 50%;
+    float: left;
+    margin-top: 22px;
+    position: relative
+}
+
+.main-timeline .date-content:before {
+    content: "";
+    width: 36.5%;
+    height: 2px;
+    background: #c6c6c6;
+    margin: auto 0;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    bottom: 0
+}
+
+.main-timeline .date-outer {
+    width: 125px;
+    height: 125px;
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+    z-index: 1
+}
+
+.main-timeline .date-outer:before,
+.main-timeline .date-outer:after {
+    content: "";
+    width: 125px;
+    height: 125px;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.33s ease-out 0s
+}
+
+.main-timeline .date-outer:before {
+    background: #fff;
+    border: 2px solid #232323;
+    left: -6px
+}
+
+.main-timeline .date-outer:after {
+    border: 2px solid #c6c6c6;
+    left: 6px
+}
+
+.main-timeline .timeline:hover .date-outer:before {
+    left: 6px
+}
+
+.main-timeline .timeline:hover .date-outer:after {
+    left: -6px
+}
+
+.main-timeline .date {
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 27%;
+    left: 0
+}
+
+.main-timeline .month {
+    font-size: 18px;
+    font-weight: 700
+}
+
+.main-timeline .year {
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    color: #232323;
+    line-height: 36px
+}
+
+.main-timeline .timeline-content {
+    width: 50%;
+    padding: 20px 0 20px 50px;
+    float: right
+}
+
+.main-timeline .title {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0 0 15px 0
+}
+
+.main-timeline .description {
+    margin-bottom: 0
+}
+
+.main-timeline .timeline:nth-child(2n) .date-content {
+    float: right
+}
+
+.main-timeline .timeline:nth-child(2n) .date-content:before {
+    left: 10px
+}
+
+.main-timeline .timeline:nth-child(2n) .timeline-content {
+    padding: 20px 50px 20px 0;
+    text-align: right
+}
+
+@media only screen and (max-width: 991px) {
+    .main-timeline .date-content {
+        margin-top: 35px
+    }
+    .main-timeline .date-content:before {
+        width: 22.5%
+    }
+    .main-timeline .timeline-content {
+        padding: 10px 0 10px 30px
+    }
+    .main-timeline .title {
+        font-size: 17px
+    }
+    .main-timeline .timeline:nth-child(2n) .timeline-content {
+        padding: 10px 30px 10px 0
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .main-timeline:before {
+        margin: 0;
+        left: 7px
+    }
+    .main-timeline .timeline {
+        margin-bottom: 20px
+    }
+    .main-timeline .timeline:last-child {
+        margin-bottom: 0
+    }
+    .main-timeline .icon {
+        margin: auto 0
+    }
+    .main-timeline .date-content {
+        width: 95%;
+        float: right;
+        margin-top: 0
+    }
+    .main-timeline .date-content:before {
+        display: none
+    }
+    .main-timeline .date-outer {
+        width: 110px;
+        height: 110px
+    }
+    .main-timeline .date-outer:before,
+    .main-timeline .date-outer:after {
+        width: 110px;
+        height: 110px
+    }
+    .main-timeline .date {
+        top: 30%
+    }
+    .main-timeline .year {
+        font-size: 24px
+    }
+    .main-timeline .timeline-content,
+    .main-timeline .timeline:nth-child(2n) .timeline-content {
+        width: 95%;
+        text-align: center;
+        padding: 10px 0
+    }
+    .main-timeline .title {
+        margin-bottom: 10px
+    }
+}
